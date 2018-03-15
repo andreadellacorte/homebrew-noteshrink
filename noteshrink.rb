@@ -14,9 +14,9 @@
   depends_on "scipy"
   depends_on "imagemagick"
 
-  resource "image" do
-    url "https://files.pythonhosted.org/packages/5a/f5/47025a3dabe2188a7f1416c3054f4ae7597543b18e2c1acecbdb2f18180a/image-1.5.19.tar.gz"
-    sha256 "e70b88ae06cc1cb8b691fa00dc51f702b90a8a3ce13fb12a06e48ae44874f274"
+  resource "Pillow" do
+    url "https://files.pythonhosted.org/packages/0f/57/25be1a4c2d487942c3ed360f6eee7f41c5b9196a09ca71c54d1a33c968d9/Pillow-5.0.0.tar.gz"
+    sha256 "12f29d6c23424f704c66b5b68c02fe0b571504459605cfe36ab8158359b0e1bb"
   end
 
   def install
